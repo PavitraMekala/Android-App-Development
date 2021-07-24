@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/popular_6"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".KonarkActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/top_bg"
+            android:padding="40dp">
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#8A070707"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_height="20dp"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="37dp"
+                android:src="@drawable/fivestar"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:text="Konark Sun Temple, Odisha"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:text="Konark Sun Temple (Odia: କୋଣାର୍କ ସୂର୍ଯ୍ୟ ମନ୍ଦିର) is a 13th-century CE (year 1250) Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri on the coastline of Odisha, India. The temple is attributed to king Narasimhadeva I of the Eastern Ganga Dynasty about 1250 CE. Dedicated to the Hindu Sun God Surya, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains. The structures and elements that have survived are famed for their intricate artwork, iconography, and themes, including erotic kama and mithuna scenes. Also called the Surya Devalaya, it is a classic illustration of the Odisha style of Architecture or Kalinga Architecture."/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:background="@drawable/popular_1"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_2"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_3"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_4"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_5"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

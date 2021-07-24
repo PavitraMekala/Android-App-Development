@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "728117744819",
+    "project_id": "tourism-99bcb",
+    "storage_bucket": "tourism-99bcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728117744819:android:3706c9cf8e510685db4cc6",
+        "android_client_info": {
+          "package_name": "com.example.indiantouristry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "728117744819-f51171vnpqupail3g9ji2p74jebn6aj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-KXFi6niF6lI5BNxbcWiytz1TG09vzJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "728117744819-f51171vnpqupail3g9ji2p74jebn6aj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

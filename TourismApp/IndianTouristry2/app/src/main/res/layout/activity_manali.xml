@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/popular_4"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".ManaliActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/top_bg"
+            android:padding="40dp">
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#8A070707"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="37dp"
+                android:src="@drawable/fivestar"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:text="Manali, Himachal Pradesh"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:text="Manali is a resort and tourist town in the mountains of Himachal Pradesh, India.[2] It is situated in the northern end of the Kullu Valley, formed by the Beas River. The town is located in the Kullu district, approximately 270 kilometres (170 mi) north of the state capital of Shimla and 544 kilometres (338 mi) northeast of the national capital of Delhi. With a population of 8,096 people recorded in the 2011 Indian census, Manali is the beginning of an ancient trade route through the Union territory of Ladakh, over the Karakoram Pass and onto Yarkand and Hotan in the Tarim Basin of China. Manali is a popular tourist destination in India and serves as the gateway to the Lahaul and Spiti district as well as the city of Leh in Ladakh."/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:background="@drawable/popular_1"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_2"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_3"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_4"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_5"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

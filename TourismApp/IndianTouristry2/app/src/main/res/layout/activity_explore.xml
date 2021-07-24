@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ExploreActivity">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vacation1" />
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 Mount Abu"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vacation8" />
+
+            <TextView
+                android:id="@+id/textLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 Gangtok"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vacation3" />
+
+            <TextView
+                android:id="@+id/textLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 Valley of flowers"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vacation4" />
+
+            <TextView
+                android:id="@+id/textLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 Dharmashala"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vacation5" />
+
+            <TextView
+                android:id="@+id/textLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 Har ki Dun Trek "
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vacation6" />
+
+            <TextView
+                android:id="@+id/textLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 Ladakh"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageLabel7"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vacation7" />
+
+            <TextView
+                android:id="@+id/textLabel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 Darjeeling"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

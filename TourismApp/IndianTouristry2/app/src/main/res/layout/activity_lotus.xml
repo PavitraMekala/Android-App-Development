@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/popular_2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LotusActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/top_bg"
+            android:padding="40dp">
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#8A070707"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_height="20dp"
+                android:layout_width="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="37dp"
+                android:src="@drawable/fivestar"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:text="Lotus Temple, New Delhi"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:text="The Lotus Temple, located in Delhi, India, is a House of Worship that was dedicated in December 1986. Notable for its flowerlike shape, it has become a prominent attraction in the city. Like all Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification. According to Shoghi Effendi, a  temple is a silent teacher of the  faith. The building is composed of 27 free-standing marble-clad petals arranged in clusters of three to form nine sides,[2] with nine doors opening onto a central hall with a height of slightly over 34 meters[2] and a capacity of 2,500 people.[3] The Lotus Temple has won numerous architectural awards and has been featured in many newspaper and magazine articles.[4] A 2001 CNN report referred to it as the most visited building in the world. It is a honour to India and the architect Fariboz Sahba."/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:background="@drawable/popular_1"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_2"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_3"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_4"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_5"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

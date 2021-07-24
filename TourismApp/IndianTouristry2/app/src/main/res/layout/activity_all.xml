@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg1"
+        tools:context=".All">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="40dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:clickable="true"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:background="@drawable/category_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/category_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/category_3" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Different Destinations"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:background="@drawable/destination_1" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/destination_2" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/destination_3" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/destination_4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:background="@drawable/destination_5" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/destination_6" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/destination_7" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/destination_8" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:text="States in India"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/states"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Popular Destinations in India"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/popular_1"
+                android:layout_marginLeft="40dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="147dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Taj Mahal" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/popular_2"
+                android:layout_marginLeft="40dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Lotus Temple" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/popular_3"
+                android:layout_marginLeft="40dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Dal Lake" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/popular_4"
+                android:layout_marginLeft="40dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Manali" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/popular_5"
+                android:layout_marginLeft="40dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Ganga River" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="160dp">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:src="@drawable/popular_6"
+                android:layout_marginLeft="40dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="Konark Temple" />
+
+    </LinearLayout>
+</ScrollView>

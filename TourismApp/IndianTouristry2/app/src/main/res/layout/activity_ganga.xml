@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/popular_5"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        tools:context=".GangaActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/top_bg"
+            android:padding="40dp">
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="#8A070707"
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="100dp">
+
+            <ImageView
+                android:layout_height="120dp"
+                android:layout_width="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/fivestar"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="#fff"
+                android:text="Ganga River, Varnasi, Uttar Pradesh"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:text="The Ganges is the most sacred river to Hindus. It is a lifeline to millions of Indians who live along its course and depend on it for their daily needs. It is worshipped as the goddess Ganga in Hinduism. It has also been important historically, with many former provincial or imperial capitals such as Pataliputra, Kannauj, Kara, Munger, Kashi, Patna, Hajipur, Delhi, Bhagalpur, Murshidabad, Baharampur, Kampilya, and Kolkata located on its banks or the banks of tributaries and connected waterways. The main stem of the Ganges begins at the town of Devprayag, at confluence of the Alaknanda, which is the source stream in hydrology because of its greater length, and the Bhagirathi, which is considered the source stream in Hindu mythology."/>
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:background="@drawable/popular_1"
+                    android:layout_height="80dp"
+                    android:layout_width="80dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_2"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_3"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_4"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+
+                <ImageView
+                    android:background="@drawable/popular_5"
+                    android:layout_height="65dp"
+                    android:layout_width="65dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">IndianTouristry</string>
+    <string name="first">
+
+        <b>Rock Beach in White Town, Puducherry(4.6⭐)</b><br></br><br></br>
+        As the name suggests, this rocky beach is perfect for
+        idling, watching the waves crash against the rocks, and
+        shooting memorable photos. You can also satiate hunger
+        pangs at the nearby cafes.<br></br>
+        <b> Best time to visit</b>– November to March<br></br>
+        <b>How to reach:</b><br></br>
+        <i> • By Air:</i> Puducherry Airport is 7 km away. You can take a taxi or auto from there.<br></br>
+        <i> • By Train:</i> Puducherry Railway station is at 2 km.<br></br>
+        <i> • By Road:</i>The beach is 3 km from Pondicherry Bus Stand.
+    </string>
+    <string name="second">
+        RAMAKRISHNA BEACH, VISHAKAPATNAM
+The Ramakrishna beach is a beautiful spot for relaxation
+and pleasure is a natural beautic scene. There is an imposing
+Kali Temple near this beach. The aquarium here is an added
+attraction. The roaring sounds of sea gives enormous
+pleasure.
+How to Reach :
+Ramakrishna Beach is located at a distance of 18 km from
+the Visakhapatnam International Airport.
+Ramakrishna Beach is located at a distance of 5 km from
+the Visakhapatnam Railway Station.
+Ramakrishna Beach is located at a distance of 5 km from
+the RTC complex. People can reach the destination by bus,
+auto or cab.
+    </string>
+</resources>

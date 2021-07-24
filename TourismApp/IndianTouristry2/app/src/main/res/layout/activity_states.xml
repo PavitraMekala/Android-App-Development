@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".StatesActivity">
+
+        <LinearLayout
+            android:id="@+id/Linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:baselineAligned="false"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/state1"
+                android:onClick="andhra"/>
+
+            <TextView
+                android:id="@+id/textLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 ANDHRA PRADESH"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/arunachal"
+                android:onClick="arunachal"/>
+
+            <TextView
+                android:id="@+id/textLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 ARUNACHAL PRADESH"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/assam"
+                android:onClick="assam"/>
+
+            <TextView
+                android:id="@+id/textLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 ASSAM"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/bihar"
+                android:onClick="bihar"/>
+
+            <TextView
+                android:id="@+id/textLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:text="📍 BIHAR"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/chattissgarh"
+                android:onClick="chhattisgarh"/>
+
+            <TextView
+                android:id="@+id/textLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 CHHATTISGARH"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/goa"
+                android:onClick="goa"/>
+
+            <TextView
+                android:id="@+id/textLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 GOA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel7"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/gujarat"
+                android:onClick="gujarat"/>
+
+            <TextView
+                android:id="@+id/textLabel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 GUJARAT"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel0"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/haryana"
+                android:onClick="haryana"/>
+
+            <TextView
+                android:id="@+id/textLabel0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 HARYANA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel9"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/himachal"
+                android:onClick="himachal"/>
+
+            <TextView
+                android:id="@+id/textLabel9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 HIMACHAL PRADESH"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel10"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/jharkand"
+                android:onClick="jharkhand"/>
+
+            <TextView
+                android:id="@+id/textLabel10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 JHARKAND"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel11"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/karnataka"
+                android:onClick="karnataka"/>
+
+            <TextView
+                android:id="@+id/textLabel11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 KARNATAKA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel12"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/kerala"
+                android:onClick="kerala"/>
+
+            <TextView
+                android:id="@+id/textLabel12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 KERALA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel13"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/madhya"
+                android:onClick="madhya"/>
+
+            <TextView
+                android:id="@+id/textLabel13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 MADHYA PRADESH"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel14"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/maharastra"
+                android:onClick="maharastra"/>
+
+            <TextView
+                android:id="@+id/textLabel14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 MAHARASTRA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel15"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/manipur"
+                android:onClick="manipur"/>
+
+            <TextView
+                android:id="@+id/textLabel15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 MANIPUR"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel16"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/meghalaya"
+                android:onClick="meghalaya"/>
+
+            <TextView
+                android:id="@+id/textLabel16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 MEGHALAYA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel17"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/mizoram"
+                android:onClick="mizo"/>
+
+            <TextView
+                android:id="@+id/textLabel17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 MIZORAM"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel18"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/nagaland"
+                android:onClick="nagaland"/>
+
+            <TextView
+                android:id="@+id/textLabel18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 NAGALAND"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel19"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/odisha"
+                android:onClick="odisha"/>
+
+            <TextView
+                android:id="@+id/textLabel19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 ODISHA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel20"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/punjab"
+                android:onClick="punjab"/>
+
+            <TextView
+                android:id="@+id/textLabel20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 PUNJAB"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel21"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/rajasthan"
+                android:onClick="rajasthan"/>
+
+            <TextView
+                android:id="@+id/textLabel21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 RAJASTHAN"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel22"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/sikkim"
+                android:onClick="sikkim"/>
+
+            <TextView
+                android:id="@+id/textLabel22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 SIKKIM"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel23"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tamilnadu"
+                android:onClick="tamilnadu"/>
+
+            <TextView
+                android:id="@+id/textLabel23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 TAMILNADU"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel24"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/telangana"
+                android:onClick="telengana"/>
+
+            <TextView
+                android:id="@+id/textLabel24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 TELANGANA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel25"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/tripura"
+                android:onClick="tripura"/>
+
+            <TextView
+                android:id="@+id/textLabel25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 TRIPURA"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel26"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/uttarpradesh"
+                android:onClick="up"/>
+
+            <TextView
+                android:id="@+id/textLabel26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 UTTARPRADESH"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel27"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/uttarakhand"
+                android:onClick="uk"/>
+
+            <TextView
+                android:id="@+id/textLabel27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 UTTARAKHAND"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageLabel28"
+                android:layout_width="wrap_content"
+                android:layout_height="227dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/westbengal"
+                android:onClick="wb"/>
+
+            <TextView
+                android:id="@+id/textLabel28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageLabel"
+                android:layout_gravity="center"
+                android:singleLine="true"
+                android:text="📍 WESTBENGAL"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

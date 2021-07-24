@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.indiantouristry">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.IndianTouristry">
+        <activity android:name=".WestbengalActivity"></activity>
+        <activity android:name=".UttarkhandActivity" />
+        <activity android:name=".UttarpradeshActivity" />
+        <activity android:name=".TripuraActivity" />
+        <activity android:name=".TelanganaActivity" />
+        <activity android:name=".TamilnaduActivity" />
+        <activity android:name=".SikkimActivity" />
+        <activity android:name=".RajasthanActivity" />
+        <activity android:name=".PunjabActivity" />
+        <activity android:name=".OdishaActivity" />
+        <activity android:name=".NagalandActivity" />
+        <activity android:name=".MizoramActivity" />
+        <activity android:name=".MeghalayaActivity" />
+        <activity android:name=".ManipurActivity" />
+        <activity android:name=".MaharastraActivity" />
+        <activity android:name=".MadhyaActivity" />
+        <activity android:name=".KeralaActivity" />
+        <activity android:name=".KarnatakaActivity" />
+        <activity android:name=".JharkhandActivity" />
+        <activity android:name=".HimachalActivity" />
+        <activity android:name=".HaryanaActivity" />
+        <activity android:name=".GujaratActivity" />
+        <activity android:name=".GoaActivity" />
+        <activity android:name=".ChattisgarhActivity" />
+        <activity android:name=".BiharActivity" />
+        <activity android:name=".AssamActivity" />
+        <activity android:name=".ArunachalActivity" />
+        <activity android:name=".AndhraActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".DisplayActivity" />
+        <activity android:name=".All" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".WeekendActivity" />
+        <activity android:name=".ExploreActivity" />
+        <activity android:name=".VacationActivity" />
+        <activity android:name=".BeachActivity" />
+        <activity android:name=".HillsActivity" />
+        <activity android:name=".WaterfallActivity" />
+        <activity android:name=".IslandActivity" />
+        <activity android:name=".MonumentsActivity" />
+        <activity android:name=".ReligiousActivity" />
+        <activity android:name=".BridgeActivity" />
+        <activity android:name=".ParkActivity" />
+        <activity android:name=".StatesActivity" />
+        <activity android:name=".TajActivity" />
+        <activity android:name=".LotusActivity" />
+        <activity android:name=".DalActivity" />
+        <activity android:name=".ManaliActivity" />
+        <activity android:name=".GangaActivity" />
+        <activity android:name=".KonarkActivity" />
+        <activity android:name=".GridActivity" />
+        <activity android:name=".GridActivity2" />
+        <activity android:name=".GridActivity3" />
+        <activity android:name=".GridActivity4" />
+        <activity android:name=".GridActivity5" />
+        <activity android:name=".GridActivity6" />
+        <activity android:name=".GridActivity7" />
+        <activity android:name=".GridActivity8" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
